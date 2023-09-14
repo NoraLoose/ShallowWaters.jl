@@ -74,6 +74,9 @@
     adv_scheme::String="ArakawaHsu"     # "Sadourny" or "ArakawaHsu"
     dynamics::String="nonlinear"        # "linear" or "nonlinear"
 
+    # EDDY MOMENTUM FORCING
+    zanna_bolton_forcing::Bool=false    #
+
     # BOTTOM FRICTION OPTIONS
     bottom_drag::String="none"          # "linear", "quadratic" or "none"
     cD::Real=1e-5                       # bottom drag coefficient [dimensionless] for quadratic
